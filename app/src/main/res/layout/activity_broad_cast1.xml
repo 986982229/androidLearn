@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.broadcast1.BroadCast1">
+    <TextView
+        android:id="@+id/ac_broadcast_tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是一个静态广播区域，大部分静态广播已经不能用了" />
+
+    <Button
+        android:id="@+id/ac_broadcast_btn_sendQuiery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="静态广播发送"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ac_broadcast_tv_2"
+        android:layout_marginTop="90dp"
+        android:text="这是一个动态广播" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ac_broadcast_btn_sendDynamic"
+        android:text="动态广播发送" />
+</LinearLayout>
